@@ -1,0 +1,246 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #ECEFF1;
+}
+@media (max-width: 480px) {
+
+#mood-trackerr{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -140px;
+    left: 87px;
+}
+.mood{
+    background-color: transparent;
+    width: 56px;
+    height: 50px;
+}
+.mood-img{
+    font-size: 2rem;
+    
+}
+#journal{
+    display: flex;
+    position: relative;
+    top: -70px;
+    left: 120px;
+    width: 278px;
+    height: 20vh;
+    border: 4px solid #0F828C;
+}
+.ip-journal{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#graph{
+  display: flex;
+    position: relative;
+    top: -35px;
+    left: 120px;
+    width: 278px;
+    height: 25vh;
+    border: 4px solid #0F828C;  
+}
+#suggestion{
+    display: flex;
+    position: relative;
+    top: -5px;
+    left: 120px;
+    width: 278px;
+    height: 15vh;
+    border: 4px solid #0F828C;
+}
+.ip-suggestion{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+}
+@media (min-width: 481px) {/*ipad mini*/ 
+#mood-trackerr{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -950px;
+    left: 220px;
+}
+.mood{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+.mood-img{
+    height: 30px;
+    gap: 10px;
+}
+
+#journal{
+    display: flex;
+    position: relative;
+    top: -1040px;
+    left: 230px;
+    width: 500px;
+    height: 20vh;
+    border: 4px solid #0F828C;
+}
+.ip-journal{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#graph{
+  display: flex;
+    position: relative;
+    top: -90px;
+    left: 230px;
+    width: 500px;
+    height: 25vh;
+    border: 4px solid #0F828C;  
+}
+#suggestion{
+    display: flex;
+    position: relative;
+    top: -880px;
+    left: 230px;
+    width: 500px;
+    height: 20vh;
+    border: 4px solid #0F828C;
+}
+.ip-suggestion{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+} 
+@media (min-width: 768px) and (max-width: 1024px){/*ipad air*/
+#mood-trackerr{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -180px;
+    left: 220px;
+}
+.mood{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+}
+.mood-img{
+    font-size: 2.5rem;
+}
+#journal{
+    display: flex;
+    position: relative;
+    top: -90px;
+    left: 230px;
+    width: 500px;
+    height: 20vh;
+    border: 4px solid #0F828C;
+}
+.ip-journal{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#graph{
+  display: flex;
+    position: relative;
+    top: -60px;
+    left: 230px;
+    width: 500px;
+    height: 25vh;
+    border: 4px solid #0F828C;  
+}
+#suggestion{
+    display: flex;
+    position: relative;
+    top: -30px;
+    left: 230px;
+    width: 500px;
+    height: 20vh;
+    border: 4px solid #0F828C;
+}
+.ip-suggestion{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+body{
+    background-color: #ECEFF1;
+}
+
+#mood-trackerr{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 150px;
+    left: 220px;
+}
+.mood{
+    background-color: transparent;
+    width: 206px;
+    height: 100px;
+}
+.mood:hover{
+    box-shadow: 4px 4px 4px black;
+}
+.mood-img{
+    font-size: 2.5rem;
+}
+#journal{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 220px;
+    width: 478px;
+    height: 30vh;
+    border: 4px solid #0F828C;
+}
+.ip-journal{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+#graph{
+  display: flex;
+    position: relative;
+    top: 13px;
+    left: 730px;
+    width: 500px;
+    height: 70vh;
+    border: 4px solid #0F828C;  
+}
+#graph:hover,
+#journal:hover,
+#mood-tracker:hover,
+#suggestion:hover{
+    box-shadow: 4px 4px 4px 4px #717d7d;
+}
+#suggestion{
+    display: flex;
+    position: relative;
+    top: -190px;
+    left: 220px;
+    width: 478px;
+    height: 31.5vh;
+    border: 4px solid #0F828C;
+}
+.ip-suggestion{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+}

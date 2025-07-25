@@ -1,0 +1,140 @@
+@media (max-width: 480px) {
+    body{
+        overflow-y: hidden;
+    }
+    #title {
+        margin-left: 20%;
+        color: black;
+    }
+
+    #navbar {
+        position: fixed;
+        height: 100vh;
+        width: 100px;
+        left: 0;
+        top: 0;
+        background-color: #B3C8CF;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .nav-img {
+        width: 20px;
+    }
+
+    .para {
+        font-size: larger;
+    }
+
+    .nav-button {
+        background-color: transparent;
+    }
+
+    #user {
+        position: relative;
+        top: 200px;
+        background-color: transparent;
+    }
+
+    .user-img {
+        height: 4vh;
+    }
+
+}
+
+@media (min-width: 481px) {/*ipad mini*/
+    #title {
+        margin-left: 20%;
+        color: black;
+        font-size: 2rem;
+    }
+
+   #navbar {
+        position: fixed;
+        height: 100vh;
+        width: 160px;
+        left: 0;
+        top: 0;
+        background-color: #B3C8CF;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .nav-img {
+        width: 30px;
+    }
+
+    .nav-button {
+        background-color: transparent;
+        width: 90%;
+    }
+
+    #user {
+        position: relative;
+        top: 200px;
+        background-color: transparent;
+    }
+
+    .user-img {
+        height: 4vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {/*ipad air*/
+    #title {
+        font-size: 2rem !important;
+        margin-left: 2% !important;
+    }
+
+    .para {
+        font-size: 2rem;
+        margin-top: 0%;
+    }
+
+    #user {
+        top: 280px;
+    }
+   
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #title {
+        margin-left: 20%;
+        color: black;
+        font-size: 2rem;
+    }
+
+  #navbar {
+        position: fixed;
+        height: 100vh;
+        width: 160px;
+        left: 0;
+        top: 0;
+        background-color: #B3C8CF;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .nav-img {
+        width: 2vw;
+        height: 3vh;
+        gap: 0%;
+    }
+
+
+    #user {
+        position: relative;
+        top: -20px;
+        background-color: transparent;
+    }
+
+    .user-img {
+        height: 4vh;
+    }
+}

@@ -1,0 +1,90 @@
+html, body {
+  background-color: #fff;
+  color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html.dark, html.dark body {
+  background-color: #111;
+  color: white;
+}
+
+html, body, #root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark body{
+    h1{
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+.settings{
+  color: black;
+  position: relative;
+  top: -380px;
+  left: 140px;
+  font-size: 2rem;
+}
+.toggle{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    width: 60vw;
+    z-index: 100;
+    background-color: #748DAE;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px){/*ipad air*/
+  .settings{
+  color: black;
+  position: relative;
+  top: 80px;
+  left:90px;
+}
+.toggle{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    width: 60vw;
+    z-index: 100;
+    background-color: #748DAE;
+}
+}
+@media (min-width: 481px) {/*ipad mini*/
+  .settings{
+  color: black;
+  position: relative;
+  top: -400px;
+  left: 200px;
+}
+.toggle{
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    width: 60vw;
+    z-index: 100;
+    background-color: #748DAE;
+}
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+.settings{
+  color: black;
+  position: relative;
+  top: -250px;
+  left: 240px;
+}
+.toggle{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    width: 20vw;
+    z-index: 100;
+    background-color: #748DAE;
+}
+}
+
