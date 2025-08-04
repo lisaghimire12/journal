@@ -26,7 +26,7 @@ function Navbar() {
                     <p className='para'>Settings</p>
                 </button>
 
-                <button id='user'>
+                <button id='user' onClick={()=>navigate('/user')}>
                     <img className='user-img' src={User}></img>
                     <p className='para'>User</p>
                 </button>
